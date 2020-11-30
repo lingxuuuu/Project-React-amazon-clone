@@ -14,6 +14,7 @@ export const getBasketTotal = (basket) =>
 const reducer = (state, action) => {
     console.log(action);
     switch(action.type) {
+        
         case 'ADD_TO_BASKET': //Everytime when we press the Aaa to basket button, case'ADD_TO_BASKET' will be executed
             return {
                 ...state,
